@@ -89,13 +89,14 @@ a{
 .main{
     text-align: center;
     padding-top: 16px;
+    padding-bottom: 60px;
     
 }
 
 .info-container{
  display: flex;
  justify-content: center;
- gap: 45px;
+ gap: 50px;
  padding-top: 18px;
 
 }
@@ -109,4 +110,34 @@ a{
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 12px;
+}
+
+.quote{
+    outline: 3px solid red;
+    padding-block: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    outline: 3px solid green;
+    max-width: 950px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-family: italic;
+    font-weight: 300;
+    text-align: left;
+   
+}
+
+.author{
+    font-size: 26px;
+    
 }
