@@ -96,18 +96,18 @@ a{
 .info-container{
  display: flex;
  justify-content: center;
- gap: 50px;
+ gap: 60px;
  padding-top: 18px;
 
 }
 
 .info{
- width: 150px;
+ width: 200px;
 }
 
 .frame {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 3px solid #3882F6;
     border-radius: 12px;
 }
@@ -139,5 +139,5 @@ a{
 
 .author{
     font-size: 26px;
-    
+
 }
