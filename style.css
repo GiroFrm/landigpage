@@ -1,11 +1,21 @@
 body{
-    max-width: 1220px;
+   
     margin: auto;
    
 }
 
 a{
     text-decoration: none;
+}
+
+.wrapper{
+    background-color:#1F2937;
+   
+}
+
+.wrapper-section{
+    max-width: 1220px;
+    margin: auto;
 }
 
 .header {
@@ -39,9 +49,10 @@ a{
     background-color: #1F2937;
 
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     gap: 16px;
+
 }
 
 .hero-text h1{
@@ -71,5 +82,6 @@ a{
 .placeholder{
     background-color: #E5E7EB;
     width: 500px;
-    height: 200px;
+    height: 250px;
+
 }
