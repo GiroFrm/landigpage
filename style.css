@@ -53,6 +53,8 @@ a{
     justify-content: space-between;
     gap: 16px;
 
+    padding-bottom: 120px;
+
 }
 
 .hero-text h1{
