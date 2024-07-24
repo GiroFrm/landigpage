@@ -201,3 +201,10 @@ a{
  padding: 8px 20px;
  cursor: pointer;
 }
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color:#F9FAF8;
+    padding-block: 40px;
+}
