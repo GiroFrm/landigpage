@@ -145,24 +145,37 @@ a{
 }
 
 .CTA{
-    padding-block: 30px;
+    padding-block: 90px;
+     outline : 3px solid red;
 
-     display: flex;
-   
+    
+
 }
 
 .CTA-wrapper{
-    padding-inline: 20px;
+    padding-block: 40px;
     background-color: #3882F6;
     color:#F9FAF8;
+    border-radius: 8px;
    
     max-width: 1220px;
-    
+    margin: auto;
+
   display: flex;
   align-items: center; 
   justify-content: space-between;
  
 
+}
+
+.CTA-wrapper2{
+    max-width: 1000px;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    margin: auto;
+   
 }
 
 .text-wrapper span{
